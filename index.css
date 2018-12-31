@@ -1,0 +1,541 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+body {
+	max-width: 1280px;
+	margin: 0 auto;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+
+section#banner {
+	display: flex;
+	border-bottom: 2px solid #bebebe;
+	padding: 1.5%;
+	justify-content: space-around;
+	font-weight: bold;
+	font-size: 85%;
+}
+
+ul#banner-list {
+	display: flex;
+	margin-left: 14em;
+}
+
+ul#banner-list li a {
+	color: black;
+	margin-right: 1rem;
+}
+
+ul#banner-list li a:hover {
+	color: red;
+}
+
+p#banner-text i.fas.fa-plus {
+	font-size: 60%;
+}
+
+span.red-banner-text {
+	color: red;
+}
+
+a#grey-link {
+	color: grey !important;
+	border-left: 1px solid #bebebe;
+	height: 18px;
+	font-size: 14px;
+	margin: 4px 0 0 6px;
+	padding: 12px 0 10px 25px;
+}
+
+a#grey-link:hover {
+	color: red !important;
+}
+
+/* Menu CSS Styling*/
+
+section#menu {
+	display: flex;
+	margin-top: 1%;
+}
+
+a img#logo{
+	height: 4em;
+}
+
+ul#menu-list {
+	display: flex;
+	padding: 1%;
+}
+
+ul#menu-list a li {
+	padding: 16px 16px 30px 17px;
+	border-right: 2px solid #f2f2f2;
+	color: black;
+	font-weight: bold;
+}
+
+ul#menu-list a li:hover {
+	color: red;
+}
+
+ul#menu-list .menu-red-text {
+	color: red;
+}
+
+.dropdown-menu {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	padding: 12px 16px;
+	background-color: white;
+	box-shadow: 0px 20px 41px -13px rgba(0,0,0,0.75);
+	border: 1px solid #bebebe;
+}
+
+.dropdown-menu h1 {
+	color: black;
+	font-weight: bold;
+}
+
+.dropdown-menu a {
+	text-decoration: none;
+	display: block;
+	color: #5f5f5f;
+	padding: 12px 16px;
+}
+
+.dropdown-menu a:hover {
+	color: red;
+}
+
+#womens-list:hover .dropdown-menu {
+	display: inline-block;
+	padding: 3.5rem;
+}
+
+#mens-list:hover .dropdown-menu {
+	display: inline-block;
+	padding: 3.5rem;
+}
+
+#girls-list:hover .dropdown-menu {
+	display: inline-block;
+	padding: 3.5rem;
+}
+
+#boys-list:hover .dropdown-menu {
+	display: inline-block;
+	padding: 3.5rem;
+}
+
+#babys-list:hover .dropdown-menu {
+	display: inline-block;
+	padding: 3.5rem;
+}
+
+.dropdown-sections {
+	display: inline-flex;
+}
+
+.dropdown-red-text {
+	color: red;
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+input#menu-search {
+	height: 3rem;
+	width: 22rem;
+	margin-top: 1rem;
+	border: 3px solid #bebebe;
+	color: #bebebe;
+	font-weight: bold;
+	padding: 1rem;
+}
+
+section#menu a i.fa.fa-shopping-bag {
+	padding: 23%;
+  font-size: 3rem;
+  color: red;
+}
+
+/* Promo CSS Styling*/
+section#promo {
+	background-color: red;
+}
+
+section#promo h1 {
+	color: white;
+	font-weight: bold;
+	padding: 1.5%;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+section#promo h1 i.fas.fa-plus {
+	font-size: 60%;
+}
+
+/* Deal Of The Day Content CSS Styling */
+
+section#deal-of-the-day-content {
+	display: flex;
+	margin-top: 1.5rem;
+}
+
+div.deal-of-the-day-img {
+	width: 60%;
+	margin-right: 2%;
+}
+
+div.deal-of-the-day-img img {
+	width: 100%;
+	height: 100%;
+}
+
+div.deal-of-the-day-offers {
+	width: 35%;
+}
+
+p.white-offer-text {
+	background-color: red;
+	font-weight: bold;
+	color: white;
+	width: 40%;
+	padding: 0.2rem;
+}
+
+p#offer-details {
+	margin-top: 1rem;
+}
+
+.h1-offers {
+	font-weight: bold;
+	font-size: 1.6rem;
+	margin-top: 1rem;
+	letter-spacing: .5px;
+}
+
+.white-offer-women-text {
+	background-color: red;
+	font-weight: bold;
+	color: white;
+	width: 15%;
+	padding: 0.2rem;
+	margin-top: 1rem;
+}
+
+.h1-women-men-offers {
+	font-weight: bold;
+	font-size: 1.6rem;
+	letter-spacing: .5px;
+	margin-top: .5rem;
+}
+
+.ad-sale-price {
+	color: red;
+  font-size: 2rem;
+	font-weight: bold;
+	margin-top: .5rem;
+}
+
+.ad-strike-price {
+	color: black;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.date-shop {
+	display: flex;
+	margin-top: .5rem;
+}
+
+.ad-offer-date {
+	color: red;
+	font-size: 1.1rem;
+}
+
+.offer-shop-now {
+	color: black;
+	margin-left: 17rem;
+}
+
+.offer-shop-now:hover {
+	color: red;
+}
+
+.white-offer-men-text {
+	background-color: darkblue;
+	font-weight: bold;
+	color: white;
+	width: 8%;
+	padding: 0.3rem;
+	margin-top: 1rem;
+}
+
+.beanie-ad {
+	display: flex;
+	margin-top: 5rem;
+}
+
+.beanie-ad-img {
+	width: 45%;
+	margin-right: 1rem;
+}
+
+.beanie-ad-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.beanie-ad-text {
+	width: 55%;
+}
+
+.beanie-ad-text h3 {
+	font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.beanie-ad-text p {
+	margin-top: 0.5rem;
+	font-size: 1.1rem;
+	letter-spacing: .1rem;
+}
+
+/* Multiple Offer CSS Styling*/
+
+div.multi-promotion {
+	display: flex;
+	margin-top: 4rem;
+}
+
+div.new-arrivals {
+	width: 25%;
+	border-right: 1px solid #bebebe;
+	padding: 12px 12px 15px 25px;
+}
+
+div.limited-offer {
+	width: 25%;
+	border-right: 1px solid #bebebe;
+	padding: 12px 12px 15px 25px;
+}
+
+div.holiday-gift {
+	width: 25%;
+	border-right: 1px solid #bebebe;
+	padding: 12px 12px 15px 25px;
+}
+
+div.multi-sale {
+	width: 25%;
+	border-right: 1px solid #bebebe;
+	padding: 12px 12px 15px 25px;
+}
+
+.multi-h1 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.multi-links {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.multi-links a {
+	color: black;
+}
+
+.multi-links a:hover {
+	color: red;
+}
+
+/* Must Buy CSS Stying*/
+
+#must-buy {
+	display: flex;
+	margin-top: 3rem;
+}
+
+#must-buy-h1 {
+	font-weight: bold;
+  font-size: 2rem;
+	margin-top: 5rem;
+}
+
+.must-buy-link {
+	text-align: center;
+	margin-top: 3rem;
+}
+
+.must-buy-link a {
+	color: black;
+	font-size: 2rem;
+}
+
+.must-buy-link a:hover {
+	color: red;
+}
+
+.must-buy-card {
+	width: 60%;
+	margin-right: 2%;
+	background-color: black;
+}
+
+.must-buy-card img {
+	width: 90%;
+	height: 80%;
+	margin-left: 2.5rem;
+  margin-top: 2rem;
+}
+
+#must-buy-card-text {
+	color: white;
+	margin-top: 1rem;
+	font-size: 3rem;
+	text-align: center;
+}
+
+#bold-card-text {
+	font-weight: bold;
+}
+
+.must-buy-women-ad {
+	width: 40%;
+}
+
+.must-buy-women-ad p#black-background-text {
+	background-color: black;
+	font-weight: bold;
+	color: white;
+	width: 25%;
+	padding: 0.2rem;
+}
+
+p.must-buy-details {
+	margin-top: 1rem;
+}
+
+.must-buy-women-ad .white-offer-women-text {
+	background-color: red;
+  font-weight: bold;
+  color: white;
+  width: 14%;
+  padding: 0.2rem;
+  margin-top: 1rem;
+}
+
+.must-buy-offers {
+	font-weight: bold;
+  font-size: 1.6rem;
+  letter-spacing: .5px;
+  margin-top: .5rem;
+}
+
+a.must-buy-shop-now {
+	color: black;
+}
+
+a.must-buy-shop-now:hover {
+	color: red;
+}
+
+.must-buy-promo {
+	color: red;
+	margin-top: .5rem;
+}
+
+.must-buy-shop-now {
+	margin-left: 26rem;
+}
+
+.workout-one-piece-ad {
+	display: flex;
+	margin-top: 11rem;
+}
+
+.workout-one-piece-img {
+	width: 45%;
+	margin-right: 1rem
+}
+
+.workout-one-piece-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.workout-ad-text {
+	width: 55%;
+}
+
+.workout-ad-text h3 {
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+.workout-ad-text p {
+	margin-top: 0.5rem;
+	font-size: 1.1rem;
+	letter-spacing: .1rem;
+}
